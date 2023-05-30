@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: #f5f5f5;
+  }
+  .contact-form {
+    position:relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 80%;
+    max-width: 450px;
+    background: #fff;
+    padding:20px 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0, 1);
+  }
+  .contact-form .form-title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: #111;
+  }
+  .contact-form .form-input {
+    margin: 20px 0px;
+  }
+  .contact-form .form-input label{
+    display:block;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 5px;
+  }
+  .contact-form .captcha label{
+    display:block;
+    font-size: 15px;
+    color: #111;
+    margin-bottom: 5px;
+  }
+  .contact-form .form-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #888;
+    font-size: 15px;
+  }
+  .contact-form .captcha {
+    margin: 15px 0px;
+  }
+  .contact-form .captcha .preview {
+    color: #555;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 8px;
+    border: 1px dashed #888;
+    font-family: "monospace";
+  }
+  #captcha-input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .captcha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .captcha-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-inline: 5px;
+    
+  }
+  #refresh-btn {
+    /* padding:10px 20PX;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer; */
+    padding:none;
+    width: 40px;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+  }
+  
+  .contact-form .captcha .preview span {
+    display: inline-block;
+    user-select: none;
+  }
+  .contact-form .captcha .captcha-form {
+    display: flex;
+  }
+  .contact-form .captcha .captcha-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #888;
+  }
+.captcha #refresh-btn {
+    width: 40px;
+    border: none;
+    outline: none;
+    background: #888;
+    color: #eee;
+    cursor: pointer;
+  }
+  .form-input #submit-btn {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background:#4c81ff;
+    color: #fff;
+    cursor: pointer;
+  }
+  

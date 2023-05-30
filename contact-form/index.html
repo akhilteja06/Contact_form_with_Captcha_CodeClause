@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+   
+</head>
+<body>
+  <form id="contactForm">
+    <div class="contact-form">
+      <div class="form-title">
+        Contact Us
+      </div>
+      <div class="form-input">
+        <label for="username">Name</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-input">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-input">
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="num" placeholder="xxxx-xxx-xxx" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+      </div>
+      <div class="form-input">
+        <label for="details">Details</label>
+        <input type="text" id="details" required>
+      </div>
+  
+      <div class="captcha">
+        <div class="captcha-text" id="preview">
+          <span id="captcha-value"></span>
+        </div>
+        <input type="text" id="captcha-input" placeholder="Enter captcha text">
+        <button id="refresh-btn">
+          <i class="fa-solid fa-arrows-rotate"></i>
+        </button>
+      </div>
+      <div class="form-input">
+        <button id="submit-btn">Submit</button>
+      </div>
+  </form>
+      <script src="script.js" ></script>
+</body>
+</html>
